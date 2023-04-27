@@ -448,3 +448,10 @@ label {
         margin-top: 30px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .section-wrap {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
