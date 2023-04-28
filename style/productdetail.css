@@ -314,6 +314,10 @@
     border-radius: 10px; 
 }
 
+.accordion-header > img {
+    transition: all 0.3s ease-in;
+}
+
 .accordion-header h5 {
     margin-bottom: 0;
 }

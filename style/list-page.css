@@ -161,6 +161,10 @@
     padding-bottom: 11px;
 }
 
+.side-nav-drop-head:hover {
+    cursor: pointer;
+}
+
 .side-nav-drop-head h5 {
     font-weight: 500;
     font-size: 15px;
@@ -301,7 +305,7 @@ label {
     background-color: transparent;
     border: 2px solid #000;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-    padding: 9px 9px 8px 9px;
+    padding: 7px 7px 6px 7px;
     display: inline-block;
     position: relative;
     vertical-align: middle;
@@ -314,11 +318,11 @@ label {
     content: '';
     display: block;
     position: absolute;
-    left: 8px;
-    top: 10px;
+    left: 6px;
+    top: 11px;
     width: 6px;
-    height: 14px;
-    border: solid #000;
+    height: 12px;
+    border: solid #0078BB;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
@@ -330,6 +334,7 @@ label {
     color: #0078BB;
     text-decoration: none;
     margin: 20px 0;
+    display: inline-block;
 }
 
 .side-nav-dropdown > a span {
@@ -342,6 +347,15 @@ label {
 
 .cross-desktop {
     display: none;
+}
+
+.side-nav-drop-head > span {
+    transition: all 0.2s ease-in;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in;
 }
 
 .overlay-bg {

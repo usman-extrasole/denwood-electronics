@@ -1,3 +1,5 @@
+
+
 // Start Category Swiper
 var swiper = new Swiper(".myCategories", {
     slidesPerView: 'auto',
@@ -134,13 +136,13 @@ $('.swiper-prev-one').on('click', function () {
         $('#left-active').hide();
     }
 });
-// End  Category-two Swiper Button Disable Script
 
+// End  Category-two Swiper Button Disable Script
 $(document).ready(function(){
     //jquery for toggle sub menus
     $('.side-nav-drop-head').click(function(){
       $(this).next('.side-nav-dropdown').slideToggle();
-      $(this).find('.dropdown').toggleClass('rotate');
+      $(this).find("span").toggleClass('rotate');
     });
 });
 
@@ -183,3 +185,4 @@ $(document).ready(function () {
       $('.picZoomer-pic').attr('src', $pic.attr('src'));
   });
 });
+
