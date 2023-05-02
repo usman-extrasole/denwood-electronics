@@ -469,3 +469,15 @@ label {
         padding-right: 24px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .section-wrap {
+        padding-left: 14px;
+        padding-right: 14px
+    }
+
+    .header-details .tex-img h1 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

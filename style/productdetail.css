@@ -282,7 +282,7 @@
     margin-bottom: 44px;
 }
 
-.frayer-details a {
+.frayer-details > a {
     background: #20191A;
     border-radius: 100px;
     font-weight: 500;
@@ -479,6 +479,14 @@
         width: 100%;
     }
 
+    .piclist > li > img:hover {
+        border: 1px solid #FFFFFF;
+    }
+
+    .accordion-header h5 {
+        font-size: 16px;
+    }
+
     .section-wrap {
         padding-left: 24px;
         padding-right: 24px
@@ -511,7 +519,7 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 425px) {
     .frayer-img > div > img {
         width: 100%;
         max-width: 419px;
@@ -521,12 +529,17 @@
     }
 
     .section-wrap {
-        padding-left: 12px;
-        padding-right: 12px
+        padding-left: 14px;
+        padding-right: 14px
     }
 
     .frayer-list-veiws li {
         padding: 20px;
+    }
+
+    .header-details .tex-img h1 {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .recommend-wrapper .grid-container {
